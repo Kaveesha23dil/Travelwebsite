@@ -36,16 +36,16 @@ export default function Footer() {
       <div className="container">
         <div className={styles.grid}>
           <div className={styles.brand}>
-            <h3>DOLANAN</h3>
-            <p>Don't miss out on our interesting promotions, please follow our social media so you don't miss out on other interesting information.</p>
+            <h3>CEYLON EXPLORER</h3>
+            <p>Don't miss out on our interesting Sri Lanka tour packages, please follow our social media so you don't miss out on other interesting information.</p>
             <div className={styles.contact}>
               <div className={styles.contactItem}>
                 <Mail size={16} />
-                <span>dolanantour@mail.com</span>
+                <span>hello@ceylonexplorer.com</span>
               </div>
               <div className={styles.contactItem}>
                 <Phone size={16} />
-                <span>+091 228 348 200</span>
+                <span>+94 77 123 4567</span>
               </div>
             </div>
           </div>
@@ -66,11 +66,11 @@ export default function Footer() {
               <h4>BASED IN</h4>
               <div className={styles.locationItem}>
                 <MapPin size={16} />
-                <span>Alexandria, France</span>
+                <span>Colombo, Sri Lanka</span>
               </div>
               <div className={styles.locationItem}>
                 <Camera size={16} />
-                <span>Photo JPG</span>
+                <span>Tourism SL</span>
               </div>
             </div>
             

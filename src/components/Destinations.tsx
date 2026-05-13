@@ -6,10 +6,10 @@ import { Star, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 
 const popularTours = [
-  { id: 1, name: "Chinese Hill", location: "Beijing, China", price: "400", rating: 4.8, reviews: "2.4k", image: "/images/tour_indonesia.png" },
-  { id: 2, name: "Mountain Koya", location: "Wakayama, Japan", price: "250", rating: 4.9, reviews: "1.2k", image: "/images/explore_mountain.png" },
-  { id: 3, name: "Kiyomizu-dera", location: "Kyoto, Japan", price: "220", rating: 4.7, reviews: "3.1k", image: "/images/explore_forest.png" },
-  { id: 4, name: "Montaña Redonda", location: "Miches, DR", price: "180", rating: 4.6, reviews: "1.8k", image: "/images/explore_waterfall.png" },
+  { id: 1, name: "Sigiriya Rock", location: "Central Province, SL", price: "150", rating: 4.9, reviews: "4.2k", image: "/images/tour_cultural.png" },
+  { id: 2, name: "Mirissa Beach", location: "Southern Province, SL", price: "120", rating: 4.8, reviews: "3.5k", image: "/images/dest_mirissa.png" },
+  { id: 3, name: "Temple of the Tooth", location: "Kandy, SL", price: "80", rating: 4.7, reviews: "2.8k", image: "/images/dest_temple.png" },
+  { id: 4, name: "Nine Arch Bridge", location: "Ella, SL", price: "100", rating: 4.9, reviews: "5.1k", image: "/images/tour_train.png" },
 ];
 
 export default function Destinations() {

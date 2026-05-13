@@ -5,10 +5,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const destinations = [
-  { id: 1, name: "Waterfall", type: "On Deals", image: "/images/explore_waterfall.png", gridArea: "a" },
-  { id: 2, name: "Beach", type: "Top Places", image: "/images/explore_beach.png", gridArea: "b" },
-  { id: 3, name: "Forest", type: "Just Listed", image: "/images/explore_forest.png", gridArea: "c" },
-  { id: 4, name: "Mountain", type: "Top Ranked", image: "/images/explore_mountain.png", gridArea: "d" },
+  { id: 1, name: "Cascading Waterfalls", type: "On Deals", image: "/images/explore_waterfall.png", gridArea: "a" },
+  { id: 2, name: "Pristine Beaches", type: "Top Places", image: "/images/explore_beach.png", gridArea: "b" },
+  { id: 3, name: "Wildlife & Nature", type: "Just Listed", image: "/images/explore_forest.png", gridArea: "c" },
+  { id: 4, name: "Hill Country", type: "Top Ranked", image: "/images/explore_mountain.png", gridArea: "d" },
 ];
 
 export default function ExploreSection() {

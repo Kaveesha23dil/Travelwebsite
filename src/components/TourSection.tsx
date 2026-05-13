@@ -5,9 +5,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const tours = [
-  { id: 1, name: "Indonesia", image: "/images/tour_indonesia.png" },
-  { id: 2, name: "Thailand", image: "/images/tour_thailand.png" },
-  { id: 3, name: "Iceland", image: "/images/tour_iceland.png" },
+  { id: 1, name: "Cultural Triangle", image: "/images/tour_cultural.png" },
+  { id: 2, name: "Wildlife Safari", image: "/images/tour_wildlife.png" },
+  { id: 3, name: "Hill Country Train", image: "/images/tour_train.png" },
 ];
 
 export default function TourSection() {

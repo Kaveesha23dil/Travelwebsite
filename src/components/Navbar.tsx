@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navbar} ref={navRef}>
-      <div className={styles.logo}>DOLANAN</div>
+      <div className={styles.logo}>CEYLON EXPLORER</div>
       <div className={styles.links}>
         <Link href="#" className={styles.link}>Home</Link>
         <Link href="#" className={styles.link}>Destination</Link>
