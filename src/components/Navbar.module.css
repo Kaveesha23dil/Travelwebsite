@@ -1,0 +1,48 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  color: var(--white);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  gap: 3rem;
+}
+
+.link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.btnRegister {
+  padding: 0.6rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1.5rem;
+  }
+  .links {
+    display: none;
+  }
+}
