@@ -94,7 +94,7 @@ export default function Hero() {
       
       <div className={styles.content} ref={textRef}>
         <h1 className={styles.title}>
-          Overseas<br />Holiday<br />Solutions.
+          Experience<br />Authentic<br />Sri Lanka.
         </h1>
         <button className={`btn btn-secondary ${styles.btnStarted}`}>Get Started</button>
         

@@ -28,7 +28,7 @@ export default function Experience() {
     <section className={styles.section}>
       <div className={styles.content}>
         <span className={styles.subtitle}>EXPERIENCE</span>
-        <h2 className={styles.title}>Explore your favorite places<br />and book your tickets now</h2>
+        <h2 className={styles.title}>Discover Sri Lanka's hidden gems<br />with our local experts</h2>
         <button className={`btn btn-primary ${styles.btnBook}`}>Book My Trip</button>
       </div>
       
